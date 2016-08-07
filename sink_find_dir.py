@@ -38,7 +38,7 @@ def find_Vdirs(root, dirs):
 find_Vdirs('/media', dirs)
        
 # check /media/(user)/(disk name)/Videos
-find_Vdirs(os.path.join('/media',os.getlogin()),dirs)
+#find_Vdirs(os.path.join('/media',os.getlogin()),dirs)
 
 # checi ~/mnt/(server)/Videos
 find_Vdirs(os.path.join(os.path.expanduser('~'),"mnt"),dirs)
